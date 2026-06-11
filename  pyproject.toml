@@ -1,0 +1,22 @@
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = [
+  "migrations",
+  "__pycache__",
+  ".venv",
+  "build",
+  "dist"
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["expense_tracker"]
+
+[tool.ruff.format]
+quote-style = "double"            # matches Black
+indent-style = "space"            # matches Black
+skip-magic-trailing-comma = false
+line-ending = "auto"

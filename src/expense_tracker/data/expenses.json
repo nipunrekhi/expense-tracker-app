@@ -1,0 +1,9 @@
+[
+    {
+        "id": "1",
+        "amount": 100,
+        "category": "Food",
+        "description": "Pizza",
+        "date": "2026-01-01"
+    }
+]
